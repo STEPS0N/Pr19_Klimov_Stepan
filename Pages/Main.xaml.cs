@@ -1,17 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using FurnitureStore_Klimov.Classes;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace FurnitureStore_Klimov.Pages
 {
@@ -20,9 +8,25 @@ namespace FurnitureStore_Klimov.Pages
     /// </summary>
     public partial class Main : Page
     {
+        public List<Item> items = new List<Item>();
+
         public Main()
         {
             InitializeComponent();
+
+            items.Add(new Item("Шкаф", 20000, "E:\\3 курс\\Ощепков\\Практические работы\\Практическая работа №19\\FurnitureStore_Klimov\\Images\\Wardrobe.jpg"));
+
+            LoadItems();
+        }
+
+        public void LoadItems()
+        {
+            parent.Children.Clear();
+
+            foreach (Item item in items)
+            {
+                parent.Children.Add(new Elements.Item(item));
+            }
         }
     }
 }

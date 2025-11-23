@@ -20,7 +20,7 @@ namespace FurnitureStore_Klimov.Elements
     /// </summary>
     public partial class Item : UserControl
     {
-        public Item()
+        public Item(Classes.Item item)
         {
             InitializeComponent();
         }

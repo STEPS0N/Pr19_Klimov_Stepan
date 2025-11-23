@@ -13,6 +13,7 @@
     <None Remove="Images\instagram.png" />
     <None Remove="Images\telegramm.png" />
     <None Remove="Images\vk.png" />
+    <None Remove="Images\Wardrobe.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,6 +21,7 @@
     <Resource Include="Images\instagram.png" />
     <Resource Include="Images\telegramm.png" />
     <Resource Include="Images\vk.png" />
+    <Resource Include="Images\Wardrobe.jpg" />
   </ItemGroup>
 
 </Project>
