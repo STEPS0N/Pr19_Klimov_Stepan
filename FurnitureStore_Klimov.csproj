@@ -8,4 +8,18 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Images\background.jpg" />
+    <None Remove="Images\instagram.png" />
+    <None Remove="Images\telegramm.png" />
+    <None Remove="Images\vk.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\background.jpg" />
+    <Resource Include="Images\instagram.png" />
+    <Resource Include="Images\telegramm.png" />
+    <Resource Include="Images\vk.png" />
+  </ItemGroup>
+
 </Project>
