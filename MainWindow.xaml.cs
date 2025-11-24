@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using FurnitureStore_Klimov.Pages;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -19,7 +20,7 @@ namespace FurnitureStore_Klimov
         public MainWindow()
         {
             InitializeComponent();
-            OpenPage(new Pages.Main());
+            OpenPage(new Main(this));
         }
 
         public void OpenPage(Page page)

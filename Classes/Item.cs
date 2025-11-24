@@ -12,6 +12,8 @@ namespace FurnitureStore_Klimov.Classes
         public int price { get; set; }
         public string src { get; set; }
 
+        public Item() { }
+
         public Item(string name, int price, string src)
         {
             this.name = name;

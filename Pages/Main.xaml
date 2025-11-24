@@ -14,7 +14,7 @@
         </Grid.Background>
         <Grid.Resources>
             <Style TargetType="{x:Type Button}">
-                <Setter Property="Background" Value="#FF69DE32"/>
+                <Setter Property="Background" Value="#ffa453"/>
                 <Setter Property="Foreground" Value="Black"/>
                 <Setter Property="BorderBrush" Value="#FFABADB3"/>
             </Style>
@@ -28,11 +28,10 @@
                 </Style>
             </Grid.Resources>
 
-            <Image Width="30" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" Source="/Images/vk.png"/>
-            <Image Width="30" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,10,0,0" Source="/Images/telegramm.png"/>
+            <Image Width="30" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" Source="/Images/logo.png"/>
             <Label Content="Мебель по карману" Margin="140,5,140,5" Foreground="#FFFFFF" HorizontalAlignment="Center"
                    VerticalContentAlignment="Center" FontSize="20" FontWeight="Bold"/>
-            <Button HorizontalAlignment="Right" VerticalAlignment="Top" Width="125" Height="25" Margin="0,10,10,0" Content="Корзина (0)"/>
+            <Button x:Name="cart" HorizontalAlignment="Right" VerticalAlignment="Top" Width="125" Height="25" Margin="0,10,10,0" Content="Корзина (0)" Click="Cart"/>
         </Grid>
         <ScrollViewer Margin="5,55,5,5" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Hidden">
             <StackPanel x:Name="parent" Orientation="Horizontal">

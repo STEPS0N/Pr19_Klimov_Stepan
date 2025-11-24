@@ -10,7 +10,9 @@
 
   <ItemGroup>
     <None Remove="Images\background.jpg" />
+    <None Remove="Images\background2.png" />
     <None Remove="Images\instagram.png" />
+    <None Remove="Images\logo.png" />
     <None Remove="Images\telegramm.png" />
     <None Remove="Images\vk.png" />
     <None Remove="Images\Wardrobe.jpg" />
@@ -18,10 +20,11 @@
 
   <ItemGroup>
     <Resource Include="Images\background.jpg" />
+    <Resource Include="Images\background2.png" />
     <Resource Include="Images\instagram.png" />
+    <Resource Include="Images\logo.png" />
     <Resource Include="Images\telegramm.png" />
     <Resource Include="Images\vk.png" />
-    <Resource Include="Images\Wardrobe.jpg" />
   </ItemGroup>
 
 </Project>
